@@ -1,13 +1,74 @@
-# Customer-Segmentation-and-Decision-Tree-Analysis
-This repository contains the notebook for customer segmentation using the K-Means algorithm, along with a decision tree model to improve the understanding of the identified segments.
+# Customer Segmentation and Decision Tree Analysis
 
-Project Description:
-The objective of this project is to apply advanced customer segmentation techniques, based on behavioral and demographic data, to create homogeneous groups that allow companies to personalize their marketing strategies. The dataset includes variables such as age, annual income, purchase frequency, customer satisfaction, and more. We used the elbow method to define the optimal number of clusters and applied K-Means to segment customers into seven groups.
+### Authors:
+- **Anamaria Leguizamón Alarcón**
+- **Juan David Lopez Becerra**
+- **Daniel Andrés Becerra Sierra**
 
-Key Features:
-Descriptive Analysis and Visualization: We explored the dataset variables through graphs that helped uncover behavioral patterns, such as the relationship between income and total spending, purchase frequency, and average spending per purchase.
-Data Transformation: Numerical variables were standardized, and categorical variables were one-hot encoded to meet the K-Means algorithm requirements.
-K-Means Segmentation: We identified 7 clusters and conducted an in-depth analysis of each, highlighting the key characteristics and behaviors of customers within each group.
-Prediction with Decision Trees: A decision tree model was trained to predict customer group membership within the 7 clusters, enhancing the interpretation of the variables that most influence segmentation.
-Model Improvements and Evaluation: Techniques such as undersampling and tree pruning were applied to mitigate overfitting issues and improve model interpretability.
-This project is valuable for any company looking to optimize its marketing strategy by effectively segmenting its customer base, adjusting resources, and campaigns according to the different identified profiles.
+---
+
+## Project Overview
+
+This repository contains a comprehensive notebook for **customer segmentation** using the **K-Means algorithm**, complemented by a **decision tree model** for enhanced understanding of the identified customer segments.
+
+### 📊 **Project Objective**
+
+The goal of this project is to apply advanced segmentation techniques to group customers based on behavioral and demographic data. By creating **homogeneous groups**, companies can tailor their marketing strategies, enhancing customer satisfaction and loyalty. 
+
+The dataset includes key variables such as:
+- **Age**
+- **Annual Income**
+- **Purchase Frequency**
+- **Customer Satisfaction**
+- **Total Spending**
+- ... and more!
+
+We utilize the **elbow method** to determine the optimal number of clusters, followed by **K-Means** to segment customers into **7 distinct groups**.
+
+---
+
+## 🔑 **Key Features**
+
+### 1. **Descriptive Analysis & Visualization**
+We explore dataset variables using a series of visualizations that reveal patterns in customer behavior. Some examples include:
+- The relationship between **annual income** and **total spending**.
+- How **purchase frequency** correlates with **average purchase value**.
+
+### 2. **Data Transformation**
+To ensure the dataset is optimized for the K-Means algorithm:
+- **Numerical variables** are standardized.
+- **Categorical variables** are one-hot encoded.
+
+### 3. **K-Means Segmentation**
+The K-Means algorithm is applied to divide the customer base into **7 clusters**. Each cluster is analyzed in detail to uncover unique customer characteristics and behaviors. 
+
+### 4. **Prediction with Decision Trees**
+A **decision tree model** is trained to predict the group membership of customers based on the previously identified clusters. This helps to interpret which features have the most influence on the segmentation process.
+
+### 5. **Model Improvements & Evaluation**
+To address issues such as overfitting and improve the model’s performance:
+- **Undersampling** was applied to balance the dataset.
+- **Tree pruning** was used to reduce model complexity and enhance interpretability.
+
+---
+
+## 🚀 **Use Case**
+
+This project is particularly valuable for businesses aiming to:
+- **Optimize marketing strategies** by understanding customer groups.
+- Focus resources on the **most valuable customer segments**.
+- Design **targeted promotions** to enhance customer experience.
+  
+Through this segmentation, businesses can unlock new **market opportunities**, identify **customer preferences**, and develop more **personalized approaches**.
+
+---
+
+## 📁 **Repository Structure**
+- `notebook.ipynb`: The main notebook with all analysis, segmentation, and decision tree modeling.
+- `data/`: The dataset used for segmentation.
+- `README.md`: Project overview and instructions (this file).
+
+---
+
+### 📧 **Contact**
+For questions or collaboration, feel free to reach out to the authors via GitHub.
