@@ -65,7 +65,7 @@ Through this segmentation, businesses can unlock new **market opportunities**, i
 
 ## 📁 **Repository Structure**
 - `notebook.ipynb`: The main notebook with all analysis, segmentation, and decision tree modeling.
-- `data/`: The dataset used for segmentation.
+- `report`: The report with the conclusions and different analyses.
 - `README.md`: Project overview and instructions (this file).
 
 ---
